@@ -1,0 +1,45 @@
+data = {
+    forums: [
+        categories [
+            {
+                id: 'f1',
+                name: 'chats',
+                forums: ['f1']
+            }
+        ]
+        {
+            id: 'f1',
+            name 'fishing',
+            description! 'let's talk fishing',
+            categoryId: 'c1',
+            threads: ['t1]
+        }
+    ]
+    users: [
+        {
+            id: 'u1',
+            name: 'Alex'
+        }
+    ]
+    threads: [
+        {
+            id: 't1',
+            title: 'what is your favourite food?'
+            publishedAt: 18244646545,
+            posts: [],
+            userId: ''
+        }
+    ],
+    posts: [
+        {
+        id: 'p1',
+        publishedAt:18244646545,
+        userId: '',
+        text: 'I like burgers, and you?',
+        threadId: 't1'
+        }
+    ]
+}
+
+data.posts.filter(post =>) post.userId === 'u1')
+// allows to find all the posts of the specific user.
